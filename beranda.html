@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bengkel Putra Prima</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-light">
+  <!-- Header -->
+  <header class="bg-primary text-white py-3">
+    <div class="container d-flex justify-content-between align-items-center">
+      <h1 class="h4 mb-0">MobilFix Center</h1>
+      <nav class="d-flex gap-3">
+        <a href="beranda.html" class="text-white px-3 py-2 rounded hover:bg-blue-500">Home</a>
+        <a href="produk.html" class="text-white px-3 py-2 rounded hover:bg-blue-500">Produk & Layanan</a>
+        <a href="mekanik.html" class="text-white px-3 py-2 rounded hover:bg-blue-500">Booking</a>
+        <a href="transaksi.html" class="text-white px-3 py-2 rounded hover:bg-blue-500">Transaksi</a>
+      </nav>
+      <div>
+        <input type="text" placeholder="Search" class="form-control d-inline-block w-auto">
+        <a href="regis.html" class="text-white text-decoration-none ms-2">Registrasi Akun</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container my-4">
+    <!-- Welcome Section -->
+    <section class="bg-white p-4 rounded shadow" style="text-align: center;">
+      <h1 class="h5 mb-3">Selamat Datang di MobilFix Center</h1> <br>
+      <div class="row g-3">
+        <div class="col-md-4">
+          <h3 class="h6" style="text-align: center;">Layanan Servis</h3>
+          <div class="card">
+            <div class="card-body" style="text-align: center;">
+              MobilFix adalah bengkel mobil terpercaya yang menyediakan layanan servis lengkap untuk semua jenis kendaraan. Dengan mekanik berpengalaman dan peralatan modern, kami siap menangani perawatan rutin, perbaikan mesin, pengecekan rem, servis AC, hingga pemasangan suku cadang berkualitas. MobilFix juga menawarkan layanan diagnostik canggih untuk memastikan setiap masalah pada kendaraan Anda terdeteksi dan ditangani dengan tepat. Kepuasan pelanggan adalah prioritas kami, sehingga setiap pekerjaan dilakukan dengan cepat, aman, dan transparan. Nikmati kenyamanan ekstra dengan fasilitas ruang tunggu yang nyaman dan layanan konsultasi teknis untuk memastikan kendaraan Anda selalu dalam kondisi prima. 
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h3 class="h6" style="text-align: center;">Cara Booking Service</h3>
+          <div class="card-body" style="text-align: center;">
+            Klik untuk membuka tutorial <br><br>
+            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Enable body scrolling</button>
+          </div>
+          
+          <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasScrollingLabel">PETUNJUK</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <p>Tutorial Cara Melakukan Booking Servis di MobilFix <br><br>
+
+                1. Kunjungi Website atau Aplikasi MobilFix <br>
+                   Buka website resmi MobilFix atau unduh aplikasi MobilFix di ponsel Anda melalui Play Store atau App Store.<br><br>
+                
+                2. Pilih Menu "Booking Servis <br>
+                   Pada halaman utama, cari dan klik menu **"Booking Servis"**. Menu ini biasanya berada di bagian atas atau terlihat jelas di halaman depan.<br><br>
+                
+                3. Isi Informasi Kendaraan  <br>
+                   Masukkan data kendaraan Anda, seperti merek, model, tahun, dan nomor plat kendaraan. Hal ini penting untuk memastikan perawatan sesuai kebutuhan mobil Anda.<br><br>
+                
+                4. Pilih Jenis Servis <br>
+                   Pilih jenis layanan yang ingin Anda lakukan, seperti: <br>
+                   - Servis rutin <br>
+                   - Pengecekan rem <br>
+                   - Perbaikan AC <br>
+                   - Ganti oli <br>
+                   - Atau layanan lainnya<br><br>
+                
+                5. Pilih Jadwal Servis <br>
+                   Pilih tanggal dan waktu yang tersedia sesuai jadwal Anda. Sistem akan menampilkan slot waktu yang masih kosong. <br><br>
+                
+                6. Konfirmasi Lokasi Bengkel <br>
+                   Pilih lokasi bengkel MobilFix terdekat dari daftar yang tersedia, atau masukkan lokasi Anda jika layanan antar-jemput tersedia. <br><br>
+                
+                7. Masukkan Kontak Pribadi <br>
+                   Isi informasi kontak Anda, seperti nama, nomor telepon, dan email, untuk memastikan kami dapat menghubungi Anda terkait konfirmasi booking. <br><br>
+                
+                8. Tinjau dan Konfirmasi Booking <br>
+                   Pastikan semua data sudah benar. Jika sudah sesuai, klik tombol **"Konfirmasi"** untuk menyelesaikan proses booking. <br><br>
+                
+                9. Dapatkan Kode Booking <br>
+                   Setelah konfirmasi, Anda akan menerima kode booking melalui email atau SMS. Tunjukkan kode ini saat datang ke bengkel atau saat petugas kami menjemput kendaraan Anda (jika tersedia). <br><br>
+                
+                10. Datang Sesuai Jadwal <br>
+                    Bawa kendaraan Anda ke MobilFix sesuai jadwal atau tunggu petugas kami menjemput mobil Anda. Tim kami akan langsung memulai servis sesuai permintaan Anda. <br><br>
+                
+                Jika ada pertanyaan atau kesulitan dalam proses booking, Anda dapat menghubungi layanan pelanggan kami melalui fitur live chat atau nomor hotline yang tersedia di website dan aplikasi. </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h3 class="h6" style="text-align: center;">Pembayaran yang Nyaman</h3>
+          <div class="card">
+            <div class="card-body" style="text-align: center;">
+              MobilFix menghadirkan pengalaman pembayaran yang nyaman dan fleksibel untuk Anda. Nikmati berbagai metode pembayaran, mulai dari tunai, kartu kredit/debit, hingga dompet digital, sesuai dengan kebutuhan Anda. Transaksi dijamin aman, cepat, dan transparan, sehingga Anda dapat fokus pada kendaraan Anda tanpa khawatir soal pembayaran. MobilFix, servis mobil jadi mudah, bayar pun nyaman!
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Product Section -->
+    <section class="mt-5">
+      <h2 class="h5 mb-3">Produk Layanan Kami</h2>
+      <div class="row g-3">
+        <div class="col-md-4">
+          <div class="bg-white p-3 rounded shadow">
+            <h3 class="h6">Service Besar</h3>
+            <div class="bg-secondary text-white d-flex justify-content-center align-items-center" style="height: 260px;">
+              <img src="https://www.carmudi.co.id/journal/wp-content/uploads/2018/05/Toyota-PHC-3.jpg" alt="Produk 1" class="w-full h-full object-cover">
+            </div>
+            <div class="mt-2">
+              <span class="badge bg-primary">8 Mekanik</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="bg-white p-3 rounded shadow">
+            <h3 class="h6">Service Ringan</h3>
+            <div class="bg-secondary text-white d-flex justify-content-center align-items-center" style="height: 260px;">
+              <img src="https://momobil.id/news/wp-content/uploads/2021/06/Ilustrasi-service-mobil.jpeg" alt="Produk 1" class="w-full h-full object-cover">
+            </div>
+            <div class="mt-2">
+              <span class="badge bg-primary">2 Mekanik</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="bg-white p-3 rounded shadow">
+            <h3 class="h6">Body Repair</h3>
+            <div class="bg-secondary text-white d-flex justify-content-center align-items-center" style="height: 260px;">
+              <img src="https://www.roojai.co.id/wp-content/uploads/2023/01/biaya-cat-mobil-full-body-scaled-1.jpg" alt="Produk 1" class="w-full h-full object-cover">
+            </div>
+            <div class="mt-2">
+              <span class="badge bg-primary">1 Mekanik</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-4 text-center">
+    <div class="container text-center">
+      <p class="mb-0">Develop By Mahasiswa IM-STT-NF 2024</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    // JavaScript to handle login toggle
+    function toggleLogin() {
+      let loginLink = document.getElementById('loginLink');
+      if (loginLink.innerHTML === 'Login') {
+        loginLink.innerHTML = 'Logout';
+      } else {
+        loginLink.innerHTML = 'Login';
+      }
+    }
+
+    // JavaScript to handle search input
+    function handleSearch() {
+      let searchInput = document.getElementById('searchInput').value;
+      console.log("Search Query: ", searchInput);
+      // Implement search logic here (e.g., filter displayed items based on search query)
+    }
+  </script>
+</body>
+</html>
